@@ -192,4 +192,4 @@ Analisis ini bertujuan untuk mengevaluasi dan memahami berbagai aspek dalam rant
 
 ---
 
-> Created by: *Your Name*
+> Created by: *Danang Hilal Kurniawan*
