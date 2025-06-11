@@ -1,12 +1,15 @@
 # 📦 Supply Chain Analysis Project
 
-Analisis ini bertujuan untuk mengevaluasi dan memahami berbagai aspek dalam rantai pasok perusahaan e-commerce, dari struktur dasar hingga efisiensi biaya dan pola permintaan.
+Analisis ini bertujuan untuk mengevaluasi dan memahami berbagai aspek dalam rantai pasok perusahaan e-commerce, dari struktur dasar hingga efisiensi biaya dan pola permintaan. Proyek ini mengeksplorasi data historis transaksi dan logistik untuk mengidentifikasi hambatan performa, tren permintaan, serta potensi optimasi pengiriman dan keuangan.
 
 ---
 
 ## 📚 About Dataset
 
-Dataset ini digunakan dari **DataCo Global**, berisi data rantai pasok yang kaya fitur untuk keperluan analisis data, machine learning, dan eksplorasi bisnis rantai pasok.
+Dataset ini digunakan dari **DataCo Global**, berisi data rantai pasok yang kaya fitur untuk keperluan analisis data, machine learning, dan eksplorasi bisnis rantai pasok. 
+
+**📎 Link Dataset:**  
+👉 [DataCo Smart Supply Chain for Big Data Analysis — Kaggle](https://www.kaggle.com/datasets/shashwatwork/dataco-smart-supply-chain-for-big-data-analysis/data)
 
 ### 🔍 Konten Dataset:
 - **Structured Data:** `DataCoSupplyChainDataset.csv`
