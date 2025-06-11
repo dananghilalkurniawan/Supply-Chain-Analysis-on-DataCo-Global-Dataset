@@ -36,3 +36,47 @@ plt.ylabel("Jumlah Order", fontsize=12)
 plt.xticks(rotation=45)
 plt.tight_layout()
 plt.show()
+
+# 1.5 Distribusi Segmentasi & Lokasi Pelanggan
+plt.figure(figsize=(8,4))
+sns.countplot(data=df_structure, x='Customer Segment', order=df_structure['Customer Segment'].value_counts().index)
+plt.title("Segmentasi Pelanggan")
+plt.ylabel("Jumlah Order")
+plt.show()
+
+top_cities = df_structure['Customer City'].value_counts().head(10)
+top_states = df_structure['Customer State'].value_counts().head(10)
+
+plt.figure(figsize=(10,4))
+sns.barplot(x=top_cities.index, y=top_cities.values)
+plt.title("10 Kota dengan Order Terbanyak")
+plt.xticks(rotation=45)
+plt.ylabel("Jumlah Order")
+plt.show()
+
+plt.figure(figsize=(10,4))
+sns.barplot(x=top_states.index, y=top_states.values)
+plt.title("10 Negara Bagian dengan Order Terbanyak")
+plt.xticks(rotation=45)
+plt.ylabel("Jumlah Order")
+plt.show()
+
+# 1.6 Distribusi Metode Pengiriman
+plt.figure(figsize=(8,4))
+sns.countplot(data=df_structure, x='Shipping Mode', order=df_structure['Shipping Mode'].value_counts().index)
+plt.title("Distribusi Mode Pengiriman")
+plt.ylabel("Jumlah Order")
+plt.show()
+
+# 1.7 Ringkasan Per Customer City
+city_order_counts = df_structure['Customer City'].value_counts().head(10)
+
+plt.figure(figsize=(12,5))
+sns.barplot(x=city_order_counts.index, y=city_order_counts.values, palette="viridis")
+plt.title("10 Kota dengan Jumlah Order Tertinggi", fontsize=14)
+plt.xlabel("Kota Pelanggan", fontsize=12)
+plt.ylabel("Jumlah Order", fontsize=12)
+plt.xticks(rotation=45)
+plt.tight_layout()
+plt.show()
+
